@@ -1,6 +1,8 @@
 [submodule "module_A"]
 	path = module_A
 	url = git@github.com:maite828/module_A.git
+	branch = main
 [submodule "module_B"]
 	path = module_B
 	url = git@github.com:maite828/module_B.git
+	branch = main
