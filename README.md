@@ -1,2 +1,2 @@
 # gitmodules
-MODULO PADRE
+MODULO CONTENEDOR
