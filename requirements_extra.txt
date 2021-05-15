@@ -6,5 +6,5 @@
 # an additional tag 'all' is generated which includes every listed package in this file.
 # https://hanxiao.io/2019/11/07/A-Better-Practice-for-Managing-extras-require-Dependencies-in-Python/
 
-module_A==2.2.1 # module_B
+module_A==2.2.1 # module_A
 module_B==1.1.1 # module_B
