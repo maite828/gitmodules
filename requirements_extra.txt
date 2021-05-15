@@ -6,8 +6,5 @@
 # an additional tag 'all' is generated which includes every listed package in this file.
 # https://hanxiao.io/2019/11/07/A-Better-Practice-for-Managing-extras-require-Dependencies-in-Python/
 
-mercury-contrib==2.2.1 # contrib
-mercury-stages==1.1.1 # stages
-mercury-graph==1.2.1 # graph
-mercury-explainability==0.1.7 # explainability
-mercury-bidfit==2.1.1 # bidfit
+module_A==2.2.1 # module_B
+module_B==1.1.1 # module_B

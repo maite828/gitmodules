@@ -5,7 +5,7 @@ import os
 import sys
 import re
 from setuptools import setup, find_namespace_packages
-import requirements as reqs
+#import requirements as reqs
 from collections import defaultdict
 from version import __version__
 
@@ -43,9 +43,11 @@ setup(
     packages=find_namespace_packages(include=['module.*']),
     author="test analytics @example",
     author_email="echeverry.maite@gmail.com",
+    url='https://github.com/maite828/gitmodules.git',  # Usa la URL del repositorio de GitHub
+    download_url='https://github.com/maite828/gitmodules/archive/refs/heads/master.zip',
     description="Macrolib's description",
-    license="TBD",
-    tests_require=get_install_requires('requirements_dev.txt'),
+    license="MIT",
+    #tests_require=get_install_requires('requirements_dev.txt'),
     extras_require=get_extras_require(),
     python_requires=">=3.6",
     zip_safe=False,
