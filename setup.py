@@ -39,7 +39,7 @@ def get_extras_require():
 setup(
     name=microlib_name,
     version=__version__,
-    packages=find_namespace_packages(include=['module*']),
+    packages=find_namespace_packages(include=['module.*']),
     author="test analytics @example",
     author_email="echeverry.maite@gmail.com",
     url='https://github.com/maite828/gitmodules.git',  # Usa la URL del repositorio de GitHub
