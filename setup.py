@@ -11,7 +11,7 @@ from version import __version__
 
 # Extract the requirements from the deps file.
 here = os.path.abspath(os.path.dirname(__file__))
-microlib_name = "gitmodules"
+microlib_name = "gitmodules_mercurio"
 
 
 def get_install_requires(requirements_file: str):
