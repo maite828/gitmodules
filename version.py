@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-__version__ = "2021.5-10"  # Updated automatically with bumpversion
+__version__ = "2021.5-11"  # Updated automatically with bumpversion
