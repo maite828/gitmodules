@@ -6,10 +6,14 @@
 
 # CONTAINER MODULE
 
-### gitmodules_mercurio[module_A==2.7.0,module_B==1.6.0]==2021.5.post12
-### gitmodules_mercurio[module_A==2.6.0,module_B==1.5.0]==2021.5.post10
+#### gitmodules_mercurio[module_A==2.7.0,module_B==1.6.0]==2021.5.post12
+#### gitmodules_mercurio[module_A==2.6.0,module_B==1.5.0]==2021.5.post10
 
-```git submodule add -b feature/docs ssh://git@globaldevtools.bbva.com:7999/cda/mercury-data.git microrepos/mercury-data```                                              
+#### Instalación de new módulo:
+```git submodule add -b main ssh://git@github.com:maite828/module_A.git module_A```                                         
+#### Actualización de módulos:
+```git submodule update --init && git submodule update --remote --recursive```
+####
 
 - [INSTALAR PADRE CON VERSION]
   - ```pip install  gitmodules_mercurio==2021.5.post12```
