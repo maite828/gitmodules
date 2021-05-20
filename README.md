@@ -6,17 +6,24 @@
 
 # CONTAINER MODULE  
 #### https://pypi.org/manage/project/gitmodules_mercurio/releases/
-gitmodules_mercurio[module_A==2.7.0,module_B==1.6.0]==2021.5.post12
-gitmodules_mercurio[module_A==2.6.0,module_B==1.5.0]==2021.5.post10
+##### gitmodules_mercurio[module_A==2.7.0,module_B==1.6.0]==2021.5.post12
+##### gitmodules_mercurio[module_A==2.6.0,module_B==1.5.0]==2021.5.post10
+
+#### Descarga de forma recursiva.
+```sh
+git clone --recursive ssh://git@github.com:maite828/gitmodules.git
+```
 
 #### Instalación de new módulo:
 ```sh 
 git submodule add -b main ssh://git@github.com:maite828/module_A.git module_A
-```                                         
+```                     
+
 #### Actualización de módulos:
 ```sh
 git submodule update --init && git submodule update --remote --recursive
 ```
+
 ## TESTS
 - [instalar padre con version]
    ```sh
